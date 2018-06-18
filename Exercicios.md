@@ -12,5 +12,85 @@ Variaveis são objetos que apontam para um endereço de memória, seus principai
 ## Escreva uma função que receba um número, via Scanner, e imprima se o número é par ou impar.
 
 ```java
+import java.util.Scanner;
+
+public class Exercicio_3 {
+    
+    public static void recebeNumero(){
+        int x = 0;
+        Scanner ler = new Scanner(System.in);
+        System.out.println("Digite um número para verificar se é par ");
+        x = ler.nextInt();
+
+        if((x  % 2) == 0)  
+         System.out.println("par");
+      else 
+         System.out.println("impar");
+    }
+
+    public static void main(String args[]) {
+        recebeNumero();
+   
+    }
+}
+```
+
+# Exercicio 4
+## Escreva uma função que receba um parâmetro e informe se o mesmo é ou não um número inteiro.
+
+```java
+import java.util.Scanner;
+
+public class Exercicio_4 {
+    
+    public static void recebeNumero(){
+        int x = 0;
+        
+        /* Scanner ler = new Scanner(System.in);
+        System.out.println("Digite um número para verificar se é par ");
+        x = ler.nextInt();*/
+
+        if((x % 1) == 0) 
+         System.out.println("par");
+      else 
+         System.out.println("impar");
+            
+        
+    }
+
+    public static void main(String args[]) {
+        recebeNumero();
+        
+    }
+}
+```
+# Exercicio 5
+## 
+
+```java
+import java.util.Scanner;
+
+public class Exercicio_3 {
+    
+    public static void recebeNumero(){
+        int x = 0;
+        
+        /* Scanner ler = new Scanner(System.in);
+        System.out.println("Digite um número para verificar se é par ");
+        x = ler.nextInt();*/
+
+        if((x % 1) == 0) 
+         System.out.println("par");
+      else 
+         System.out.println("impar");
+ 
+    }
+
+    public static void main(String args[]) {
+        recebeNumero();
+
+    }
+}
 
 ```
+
