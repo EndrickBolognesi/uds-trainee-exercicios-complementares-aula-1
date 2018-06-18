@@ -46,9 +46,9 @@ public class Exercicio_4 {
     public static void recebeNumero(){
         int x = 0;
         
-        /* Scanner ler = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
         System.out.println("Digite um número para verificar se é inteiro");
-        x = ler.nextInt();*/
+        x = ler.nextInt();
 
         if((x % 1) == 0) 
          System.out.println("par");
@@ -70,14 +70,14 @@ public class Exercicio_4 {
 ```java
 import java.util.Scanner;
 
-public class Exercicio_3 {
+public class Exercicio_5 {
     
     public static void recebeNumero(){
         int x = 0;
         
-        /* Scanner ler = new Scanner(System.in);
-        System.out.println("Digite um número para verificar se é par ");
-        x = ler.nextInt();*/
+        Scanner ler = new Scanner(System.in);
+        System.out.println("Digite um número para verificar se é positivo ou negativo");
+        x = ler.nextInt();
 
         if((x % 1) == 0) 
          System.out.println("par");
