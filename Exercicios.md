@@ -47,7 +47,7 @@ public class Exercicio_4 {
         int x = 0;
         
         /* Scanner ler = new Scanner(System.in);
-        System.out.println("Digite um número para verificar se é par ");
+        System.out.println("Digite um número para verificar se é inteiro");
         x = ler.nextInt();*/
 
         if((x % 1) == 0) 
