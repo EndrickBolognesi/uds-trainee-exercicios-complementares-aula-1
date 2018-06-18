@@ -65,7 +65,7 @@ public class Exercicio_4 {
 }
 ```
 # Exercicio 5
-## 
+## Escreva uma função para ler um valor, via Scanner, e alertar se é positivo ou negativo. Considere o valor zero como positivo.
 
 ```java
 import java.util.Scanner;
