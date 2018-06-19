@@ -35,7 +35,7 @@ public class Exercicio_3 {
 }
 ```
 
-# Exercicio 4
+# Exercício 4
 ## Escreva uma função que receba um parâmetro e informe se o mesmo é ou não um número inteiro.
 
 ```java
@@ -64,7 +64,7 @@ public class Exercicio_4 {
     }
 }
 ```
-# Exercicio 5
+# Exercício 5
 ## Escreva uma função para ler um valor, via Scanner, e alertar se é positivo ou negativo. Considere o valor zero como positivo.
 
 ```java
