@@ -12,25 +12,25 @@ Variaveis são objetos que apontam para um endereço de memória, seus principai
 ## Escreva uma função que receba um número, via Scanner, e imprima se o número é par ou impar.
 
 ```java
-import java.util.Scanner;
+mport java.util.Scanner;
 
 public class Exercicio_3 {
-    
-    public static void recebeNumero(){
+
+    public static void verificaPar(){
         int x = 0;
         Scanner ler = new Scanner(System.in);
         System.out.println("Digite um número para verificar se é par ");
         x = ler.nextInt();
 
-        if((x  % 2) == 0)  
-         System.out.println("par");
-      else 
-         System.out.println("impar");
+        if((x  % 2) == 0)
+            System.out.println("par");
+        else
+            System.out.println("impar");
     }
 
     public static void main(String args[]) {
-        recebeNumero();
-   
+        verificaPar();
+
     }
 }
 ```
@@ -42,27 +42,24 @@ public class Exercicio_3 {
 import java.util.Scanner;
 
 public class Exercicio_4 {
-    
-    public static void recebeNumero(){
+
+    public static void verificaInteiro(){
         int x = 0;
-        
+
         Scanner ler = new Scanner(System.in);
         System.out.println("Digite um número para verificar se é inteiro");
         x = ler.nextInt();
 
-        if((x % 1) == 0) 
-         System.out.println("par");
-      else 
-         System.out.println("impar");
-            
-        
+        if((x % 1) == 0)
+            System.out.println("É inteiro");
+        else
+            System.out.println("Não é inteiro");
     }
-
     public static void main(String args[]) {
-        recebeNumero();
-        
+        verificaInteiro();
     }
 }
+
 ```
 # Exercício 5
 ## Escreva uma função para ler um valor, via Scanner, e alertar se é positivo ou negativo. Considere o valor zero como positivo.
@@ -71,26 +68,25 @@ public class Exercicio_4 {
 import java.util.Scanner;
 
 public class Exercicio_5 {
-    
-    public static void recebeNumero(){
+
+    public static void verificaPositivo(){
         int x = 0;
-        
+
         Scanner ler = new Scanner(System.in);
         System.out.println("Digite um número para verificar se é positivo ou negativo");
         x = ler.nextInt();
 
-        if((x % 1) == 0) 
-         System.out.println("par");
-      else 
-         System.out.println("impar");
- 
+        if(x >= 0)
+            System.out.println("Positivo");
+        else
+            System.out.println("Negativo");
+
     }
 
     public static void main(String args[]) {
-        recebeNumero();
+        verificaPositivo();
 
     }
 }
-
 ```
 
