@@ -12,17 +12,17 @@ Variaveis são objetos que apontam para um endereço de memória, seus principai
 ## Escreva uma função que receba um número, via Scanner, e imprima se o número é par ou impar.
 
 ```java
-mport java.util.Scanner;
+import java.util.Scanner;
 
 public class Exercicio_3 {
 
     public static void verificaPar(){
-        int x = 0;
+        int numero = 0;
         Scanner ler = new Scanner(System.in);
         System.out.println("Digite um número para verificar se é par ");
-        x = ler.nextInt();
+        numero = ler.nextInt();
 
-        if((x  % 2) == 0)
+        if((numero  % 2) == 0)
             System.out.println("par");
         else
             System.out.println("impar");
@@ -44,13 +44,13 @@ import java.util.Scanner;
 public class Exercicio_4 {
 
     public static void verificaInteiro(){
-        int x = 0;
+        int numero = 0;
 
         Scanner ler = new Scanner(System.in);
         System.out.println("Digite um número para verificar se é inteiro");
-        x = ler.nextInt();
+        numero = ler.nextInt();
 
-        if((x % 1) == 0)
+        if((numero % 1) == 0)
             System.out.println("É inteiro");
         else
             System.out.println("Não é inteiro");
@@ -70,13 +70,13 @@ import java.util.Scanner;
 public class Exercicio_5 {
 
     public static void verificaPositivo(){
-        int x = 0;
+        int numero = 0;
 
         Scanner ler = new Scanner(System.in);
         System.out.println("Digite um número para verificar se é positivo ou negativo");
-        x = ler.nextInt();
+        numero = ler.nextInt();
 
-        if(x >= 0)
+        if(numero >= 0)
             System.out.println("Positivo");
         else
             System.out.println("Negativo");
@@ -88,5 +88,44 @@ public class Exercicio_5 {
 
     }
 }
+```
+# Exercício 6
+## Escreva uma função que leia o código de origem de um produto, via Scanner, e imprima na tela a região de sua procedência conforme a tabela abaixo.
+
+```java
+import java.util.Scanner;
+
+public class Exercicio_6 {
+
+    public static String verificaCodigo(){
+        int numero = 0;
+
+        Scanner ler = new Scanner(System.in);
+        System.out.println("Digite o número do código de origem do produto");
+        numero = ler.nextInt();
+
+        switch (numero) {
+            case 1: return "Sul";
+            case 2: return "Norte";
+            case 3: return "Leste";
+            case 4: return "Oeste";
+            case 5: case 6: return "Nordeste";
+            case 7: case 8: case 9: return "Sudeste";
+            case 10: return "Centro-Oeste";
+            case 11: return "Noroeste";
+            default: return "Importado";
+        }
+    }
+    public static void main(String args[]) {
+
+        System.out.println(verificaCodigo());
+    }
+}
+
+
+```
+# Exercício Hardcore 3
+```java
+
 ```
 
